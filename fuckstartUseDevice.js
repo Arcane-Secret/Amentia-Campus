@@ -6,7 +6,7 @@ Content-Length: 70
 Connection: close
 */
 
-const myData = '{"balance":100,"orderNo":"XF202204261118454227","flag":0,"errmsg":""}';
+const myData = '{"balance":1000000,"orderNo":"XXXXXXXXXXXXXXXXXXXXX","flag":0,"errmsg":""}';
 const myResponse = {
     status: myStatus,
     body: myData // Optional.
