@@ -10,7 +10,7 @@ if(obj.hasOwnProperty("balance"))
 
     if (obj["prepayAmount"] == 5)
     {
-        obj["prepayAmount"] = 100;
+        //obj["prepayAmount"] = 100;
         obj["coldWater"] = 0;
         obj["hotWater"] = 0;
     }
@@ -26,9 +26,9 @@ else{
     obj["orderStatus"] = 0;
     if (obj["prepayAmount"] == 5)
     {
-        obj["prepayAmount"] = 100;
-        obj["coldWater"] = 0.05;
-        obj["hotWater"] = 0.01;
+        //obj["prepayAmount"] = 100;
+        obj["coldWater"] = 0;
+        obj["hotWater"] = 0;
     }
     body = JSON.stringify(obj);
 
