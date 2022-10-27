@@ -19,6 +19,7 @@ if(obj.hasOwnProperty("balance"))
 }
 else{
     var b = JSON.parse($request.body);
+    console.log("傻逼工贸 设备ID:"+ b['deviceId'].toString());
     body = '{"coldWater":0.005,"hotWater":0.005,"deviceTypeName":"没钱了兄弟","pulse":0,"orderStatus":"0","balance":3.88,"deviceNo":"0000000000000000","flag":0,"orderNo":"","isMine":"","deviceName":"穷","oldconnectNo":"","connectNo":"4600","userMobile":"00000000000","prepayAmount":100,"errmsg":"","deviceId":15391,"mobile":"00000000000"}    ';
     var obj = JSON.parse(body);
     obj["deviceId"] = b['deviceId'];
