@@ -1,4 +1,6 @@
 var body =  $response.body;
+console.log("傻逼工贸 response:\n"+ $response.body);
+
 var obj = JSON.parse(body);
 if(obj.hasOwnProperty("balance"))
 {
