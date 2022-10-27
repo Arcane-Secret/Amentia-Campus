@@ -42,7 +42,7 @@ obj["balance"] = 111;
 //obj["deviceId"] = 13383;
 
 obj["orderStatus"] = 0;
-obj["prepayAmount"] = 5;
+obj["prepayAmount"] = 1111;
 
 body = JSON.stringify(obj);
 var myResponse = {
