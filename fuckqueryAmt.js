@@ -36,11 +36,11 @@
 // $done(body);
 
 const myStatus = "HTTP/1.1 200 OK";
-var body = '{"coldWater":0.005,"hotWater":0.005,"deviceTypeName":"没钱了兄弟","pulse":0,"orderStatus":"0","balance":3.88,"deviceNo":"0000000000000000","flag":0,"orderNo":"","isMine":"","deviceName":"穷","oldconnectNo":"","connectNo":"4600","userMobile":"00000000000","prepayAmount":100,"errmsg":"","deviceId":15391,"mobile":"00000000000"}    ';
+var body = '{"coldWater":0.005,"hotWater":0.005,"deviceTypeName":"没钱了兄弟","pulse":0,"orderStatus":"0","balance":3.88,"deviceNo":"0000000000000000","flag":0,"orderNo":"","isMine":"","deviceName":"穷","oldconnectNo":"","connectNo":"4600","userMobile":"00000000000","prepayAmount":5,"errmsg":"","deviceId":15391,"mobile":"00000000000"}    ';
 var obj = JSON.parse(body);
-obj["balance"] = 1000000;
-obj["coldWater"] = 0.001;
-obj["hotWater"] = 0.001;
+obj["balance"] = 5;
+// obj["coldWater"] = 0.001;
+// obj["hotWater"] = 0.001;
 obj["orderStatus"] = 0;
 // if (obj["prepayAmount"] == 5)
 // {
