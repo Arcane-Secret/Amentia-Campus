@@ -42,7 +42,7 @@ obj["balance"] = 111;
 // obj["coldWater"] = 0.001;
 // obj["hotWater"] = 0.001;
 obj["orderStatus"] = 0;
-obj["prepayAmount"] = 5;
+obj["prepayAmount"] = 999;
 // if (obj["prepayAmount"] == 5)
 // {
 //     //obj["prepayAmount"] = 100;
